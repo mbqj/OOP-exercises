@@ -1,0 +1,14 @@
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\bin\Debug\net9.0\Problem-Solving.exe
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\bin\Debug\net9.0\Problem-Solving.deps.json
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\bin\Debug\net9.0\Problem-Solving.runtimeconfig.json
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\bin\Debug\net9.0\Problem-Solving.dll
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\bin\Debug\net9.0\Problem-Solving.pdb
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\Problem-Solving.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\Problem-Solving.AssemblyInfoInputs.cache
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\Problem-Solving.AssemblyInfo.cs
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\Problem-Solving.csproj.CoreCompileInputs.cache
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\Problem-Solving.dll
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\refint\Problem-Solving.dll
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\Problem-Solving.pdb
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\Problem-Solving.genruntimeconfig.cache
+C:\Users\mbqj\RiderProjects\OOP-exercises\Problem-Solving\Problem-Solving\obj\Debug\net9.0\ref\Problem-Solving.dll
