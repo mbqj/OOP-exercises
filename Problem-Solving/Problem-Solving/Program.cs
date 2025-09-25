@@ -53,9 +53,8 @@ Write a program in which:
 
 2. Print out the contents of this data structure in a “nice” way.
 */
-void calendarPrettyPrint(){
+void calendarPrettyPrint(int year){
     DayOfWeek[,] calendar;
-    int year = 2025;
     calendar = new DayOfWeek[12, 31];
 
     for (int month = 1; month <= 12; month++)
@@ -79,4 +78,4 @@ void calendarPrettyPrint(){
         }
     }
 }
-calendarPrettyPrint();
+calendarPrettyPrint(2025);
