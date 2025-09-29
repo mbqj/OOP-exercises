@@ -1,4 +1,8 @@
-﻿class Program {
+﻿//T1 Marcus
+
+//More comments and explanations available in the customer_database exercise!
+
+class Program {
 	public static void Main(string[] args) {
 		Customer aCustomer; //Declaration
 		aCustomer = new Customer("Peter", 0, 500); //Instantiate a new customer (name=Peter, id=0, balance=500)
