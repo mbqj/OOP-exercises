@@ -7,6 +7,10 @@
 		database.AddCustomer(new Customer("Sarah", 2, 45));
 
 		database.PrintCustomers();
+
+		database.RemoveCustomerById(1);
+
+		database.PrintCustomers();
 	}
 }
 
@@ -66,7 +70,7 @@ class CustomerDatabase {
 
 	public void RemoveCustomerById(int id) {
 		for (int i = 0; i < customers.Length; i++)
-			if (customers[i].id == id)
+			if (customers[i] != null && customers[i].id == id)
 				customers[i] = null;
 	}
 
