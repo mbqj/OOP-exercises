@@ -66,7 +66,7 @@ public class Program
         FoodItem[] foodItems = new FoodItem[10];
         for (int i = 0; i < foodItems.Length; i++)
         {
-            foodItems[i] = new FoodItem("Food Item " + i, 1.0*i, new DateTime(i * 2000 * 1 * 1));
+            foodItems[i] = new FoodItem("Food Item " + i, 1.0*i, new DateTime(2000, 1, 1));
         }
         NonFoodItem[] nonFoodItems = new NonFoodItem[10];
         for (int i = 0; i < foodItems.Length; i++)
@@ -85,4 +85,21 @@ public class Program
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
