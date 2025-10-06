@@ -27,7 +27,7 @@ public class Course {
 
 	public Course (string nameValue) {
 		name = nameValue;
-		participants = newStudent[10]; // NOTE: This constant is BAD!
+		participants = new Student[10]; // NOTE: This constant is BAD!
 	}
 	
 	public void Enroll(Student student) {
@@ -57,7 +57,7 @@ public class Course {
 		}
 
 		// make a copy
-		Student[] result = newStudent[count];
+		Student[] result = new Student[count];
 		int index = 0; 
 		foreach (Student student in participants) {
 			if (student != null) {
@@ -103,7 +103,7 @@ public class EnrollmentSystem {
 	}
 
 	//New method added
-	public void RemoveStudent(Course course) {
+	public void RemoveCourse(Course course) {
 		for (int i = 0 ; i < courses.Length; i++) {
 			if (courses[i] == course) {
 				courses[i] = null;
