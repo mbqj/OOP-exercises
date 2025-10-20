@@ -5,17 +5,12 @@ class Program {
 		Inventory inventory = new Inventory(15);
 
 		//Put some items into the inventory
-
-		/*
 		for (int i = 0; i < 15; i++) {
 			if (i % 3 == 0)
 				inventory.AddItem(new NonFoodItem("Item " + i, 12.3 * i, new string[] { "Wood", "Nails", "WD40" }));
 			else
 				inventory.AddItem(new FoodItem("Item " + i, 8.7 * i, new DateTime(2026, i % 12, (i * 3) % 28, (i * 13) % 23, (i * 27) % 59, (i * 41) % 59))); //Lots of modulo to create semi random dates
 		}
-		*/
-
-		inventory.AddItem(new NonFoodItem("Item ", 12.3, new string[] { "Wood", "Nails", "WD40" }));
 
 		
 		//Print the total value of all items in the inventory
