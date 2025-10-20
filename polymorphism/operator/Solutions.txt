@@ -1,0 +1,42 @@
+T1 Marcus
+(I do not personally think this is a good exercise. I do not know why they are
+writing (?x?) and I do not understand what is to be gained from this exercise.
+It shows off method overloading, which is a type of polymorphism, so oh well)
+
+Task 1.
+- Which operators are evaluated on the individual lines? Or, in other words, 
+what does (?1?), (?2?), (?3?), (?4?) and (?5?) represent?
+
+A)
+   (?1?) evaluates the first (a+b) operator
+   (?2?) evaluates the first (a+b) operator
+   (?3?) evaluates the second (a-b) operator
+   (?4?) evaluates the second (a-b) operator
+   (?5?) evaluates the second (a-b) operator
+
+
+
+Task 2. 
+- How do these relate to the 3rd argument to the Operator calls?
+
+A) The third argument is not used for anything other than 'choosing' which
+   version of the operator method is called. And I don't know how (?x?) relates to anything...
+
+
+
+Task 3. 
+- What is the important part of that 3rd parameter? Which rule is being exploited?
+
+A) The fact that every time a method is overloaded it MUST have a unique signature (the amount and
+   types of parameters). In this way we can have multiple same name methods, and pick whichever one
+   we want based on what arguments we use. 
+   (However I would consider what this exercise does to be bad practice!)
+
+
+
+Task 4.
+- Is this a reasonable interface for Operator?
+
+A) I don't even know what is meant by this, and no. If this is supposed to be
+   an implementation of basic addition and subtraction, I would make 2 different
+   methods, one for each, instead of using unnecessary overloading. 
